@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.titulos1 {
+    display: flex;
+    justify-content: space-between;
+    .tituloprincipal{
+        color: #b603b6;
+        font-style: italic;
+        font-weight: extra bold;
+        &:hover{
+            color: whitesmoke;
+        }
+    }
+    .guarito div h1 {
+        font-size: 100px;
+        margin-left: 20px;
+        margin-top: 25px; 
+    }
+    .guarito {
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .guarito img {
+        width: 100px;
+        border-radius: 50%;
+        margin-top: 40px;
+    }
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 90px;
+    gap: 5px; 
+    .login{
+        font-size: 25px;
+        color: #b603b6;
+        text-decoration: none;
+    }
+    .carrito{
+        width: 100px;
+        height: auto;
+        padding-top: 10px;
+    }
+}
+.barra{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
